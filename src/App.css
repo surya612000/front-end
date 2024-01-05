@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Container1{
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to right, #ff0000, #9575CD);
+  background-size: cover;
+  height: 100vh;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10%;
+  
+}
+
+.innerContainer{
+ 
+  margin-top: 10px;
+}
+
+
+
+.container2{
+  margin-top: 10px;
+}
+
+.surya{
+  font-family: "Roboto";
+  color:blue;
+}
+.table1{
+  width: 250px;
+  height: 250px;
+}
+
+.innerContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.listElements{
+  font-family: "Roboto";
+  font-size: 50px;
+  color: blue;
+}
+.button1{
+  background-color: blue;
+  font-family: "Roboto";
+  margin-right: 20px;
   color: white;
+  width: 152px;
+  height: 50px;
+
+
+}
+.inputcontainer{
+  margin: 5px;
+}
+  
+.label{
+  font-family: "Roboto";
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.main-heading{
+  font-family: "Roboto";
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.custom-table {
+  width: 100%;
+  background-color: aquamarine;
+  color: black;
+  margin: 10px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
